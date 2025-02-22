@@ -1,0 +1,142 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Headings styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #444;
+}
+
+h3#timeNow {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Show button container styling */
+div[style*="display: flex;"] {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#show-hide {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+/* Tasks form styling */
+#Tasks-Form {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Tasks-Form li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#Tasks-Form li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#Tasks-Form li input[type="number"],
+#Tasks-Form li input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+/* Add Task Button styling */
+#addAtask {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#addAtask:hover {
+    background-color: #218838;
+}
+
+/* Adding Task Form styling */
+#addingAtask {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+}
+
+#addingAtask input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#addingAtask input[type="number"],
+#addingAtask input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+/* Submit Task Button styling */
+#addingAtask button#submitTask {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addingAtask button#submitTask:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h2>Task Manager</h2>
+
+    <h3 id="timeNow">Time currently :</h3>
+
+    <div style="display: flex;">
+        <input type="checkbox" id="showbutton" >
+        <p id="show-hide">Show Tasks.</p>
+    </div>
+
+    <form action="" id="Tasks-Form">
+        <p>No Tasks Yet!</p>
+    </form>
+
+    <button id="addAtask">+</button>
+    <div id="addingAtask">
+        <input type="checkbox" id="addingCheck" >
+        <input type="number" name="heure" id="addingHeure" min="0" max="23" >
+        <input type="number" name="minute" id="addingMinute" min="0" max="59" >
+        <input type="text" id="addingText" placeholder="Todo">
+        <button id="submitTask">Add</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
